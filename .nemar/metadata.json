@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Simon Conflict in Parkinson's",
-  "description": "This dataset comprises EEG recordings from 28 Parkinson's disease patients and 28 matched controls performing a Simon conflict task with cost of conflict reinforcement manipulation. Parkinson's patients were tested twice within one week under both ON and OFF medication conditions, while controls participated in a single session. The study investigates neural correlates of conflict processing and decision-making in Parkinson's disease using event-related potentials and behavioral measures.",
-  "methods_description": "EEG data were collected during a Simon conflict task adapted from established protocols. Participants completed the task in a single session (controls) or two sessions separated by one week (Parkinson's patients, tested ON and OFF medication). Accelerometer data were simultaneously recorded from the most tremor-affected hand in three dimensions (X, Y, Z). Data were collected circa 2015 at the Cognitive Rhythms and Computation Lab at the University of New Mexico.",
+  "description": "This dataset comprises EEG recordings from 28 Parkinson's disease patients and 28 matched controls performing a Simon conflict task with cost of conflict reinforcement manipulation. Parkinson's patients were tested twice within one week under both ON and OFF medication conditions, while controls participated in a single session. The study investigates neural correlates of conflict processing and decision-making in Parkinson's disease using event-related potentials.",
+  "methods_description": "EEG data were collected during a Simon conflict task adapted from established protocols. Parkinson's disease patients completed two sessions separated by one week, tested under both ON and OFF medication states. Control subjects completed a single session. Accelerometer data (X, Y, Z dimensions) were simultaneously recorded from the most tremor-affected hand in Parkinson's patients. Task stimuli were presented using MATLAB programming language.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -27,16 +27,13 @@
       "term": "Simon task"
     },
     {
-      "term": "Event-Related Potentials"
+      "term": "event-related potentials"
     },
     {
-      "term": "P300"
+      "term": "motor control"
     },
     {
       "term": "decision-making"
-    },
-    {
-      "term": "cost of conflict"
     },
     {
       "term": "medication"
@@ -45,10 +42,10 @@
       "term": "accelerometer"
     },
     {
-      "term": "motor tremor"
+      "term": "cost of conflict"
     },
     {
-      "term": "ON/OFF medication"
+      "term": "reinforcement"
     }
   ],
   "related_identifiers": [
