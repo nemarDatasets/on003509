@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Simon Conflict in Parkinson's",
+  "description": "This dataset comprises EEG recordings from 28 Parkinson's disease patients and 28 matched controls performing a Simon conflict task with cost of conflict reinforcement manipulation. Parkinson's patients were tested twice within one week under both ON and OFF medication conditions, while controls participated in a single session. The study investigates neural correlates of conflict processing and decision-making in Parkinson's disease using event-related potentials and behavioral measures.",
+  "methods_description": "EEG data were collected during a Simon conflict task adapted from established protocols. Participants completed the task in a single session (controls) or two sessions separated by one week (Parkinson's patients, tested ON and OFF medication). Accelerometer data were simultaneously recorded from the most tremor-affected hand in three dimensions (X, Y, Z). Data were collected circa 2015 at the Cognitive Rhythms and Computation Lab at the University of New Mexico.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -11,12 +13,45 @@
     "Arun Singh": {},
     "Kumar Narayanan": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003509.v1.1.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "Parkinson's disease"
+    },
+    {
+      "term": "conflict processing"
+    },
+    {
+      "term": "Simon task"
+    },
+    {
+      "term": "Event-Related Potentials"
+    },
+    {
+      "term": "P300"
+    },
+    {
+      "term": "decision-making"
+    },
+    {
+      "term": "cost of conflict"
+    },
+    {
+      "term": "medication"
+    },
+    {
+      "term": "accelerometer"
+    },
+    {
+      "term": "motor tremor"
+    },
+    {
+      "term": "ON/OFF medication"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003509",
       "identifier_type": "URL",
@@ -41,14 +76,19 @@
       "identifier": "10.1016/j.neuropsychologia.2018.05.020",
       "identifier_type": "DOI",
       "relation_type": "IsSupplementedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003509.v1.1.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "24.0 GB (1170 files)"
   ],
   "formats": [
     ".bmp",
@@ -62,44 +102,8 @@
     ".set",
     ".tsv",
     ".xlsx",
+    ".yml",
     ".zip"
   ],
-  "description": "This dataset comprises EEG recordings from 28 Parkinson's disease patients and 28 matched controls performing a Simon conflict task with cost of conflict reinforcement manipulation. Participants with Parkinson's disease were tested twice within one week under both ON and OFF medication conditions, while controls participated in a single session. The study investigates neural correlates of conflict processing and decision-making in Parkinson's disease using event-related potentials and behavioral measures.",
-  "methods_description": "EEG data were collected during a Simon conflict task adapted from Schall et al. (2015). Parkinson's disease patients completed two sessions separated by one week, tested both ON and OFF medication, while control subjects completed a single session. Accelerometer data (X, Y, Z dimensions) were simultaneously recorded from the most tremor-affected hand in Parkinson's patients. Task stimuli were presented using MATLAB programming language.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "Parkinson's disease"
-    },
-    {
-      "term": "conflict processing"
-    },
-    {
-      "term": "Simon task"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "decision-making"
-    },
-    {
-      "term": "motor control"
-    },
-    {
-      "term": "medication effects"
-    },
-    {
-      "term": "accelerometer"
-    },
-    {
-      "term": "tremor"
-    },
-    {
-      "term": "cost of conflict"
-    }
-  ],
-  "source_hash": "57e96d8f3c70e3d166c653d8c6da28008169bfd73e8585262c43b8d25ccba9c5"
+  "source_hash": "21dea76cac71cb6859a87b5ea4bc644d606563ec8e82e2896cbdbf5935366259"
 }
