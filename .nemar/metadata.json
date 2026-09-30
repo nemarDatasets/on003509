@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "EEG: Simon Conflict in Parkinson's",
-  "description": "This dataset comprises EEG recordings from 28 Parkinson's disease patients and 28 matched controls performing a Simon conflict task with cost of conflict reinforcement manipulation. Parkinson's patients were tested twice within one week under both ON and OFF medication conditions, while controls participated in a single session. The study investigates neural correlates of conflict processing and decision-making in Parkinson's disease using event-related potentials.",
-  "methods_description": "EEG data were collected during a Simon conflict task adapted from established protocols. Parkinson's disease patients completed two sessions separated by one week, tested under both ON and OFF medication states. Control subjects completed a single session. Accelerometer data (X, Y, Z dimensions) were simultaneously recorded from the most tremor-affected hand in Parkinson's patients. Task stimuli were presented using MATLAB programming language.",
+  "description": "EEG dataset from a Simon conflict task with a cost-of-conflict reinforcement manipulation, recorded in 28 patients with Parkinson's disease and 28 matched healthy controls. Patients were tested twice, one week apart, ON and OFF dopaminergic medication, while controls were tested once. Accelerometer data from the most tremor-affected hand are also included, along with task code and analysis scripts.",
+  "methods_description": "Data were collected around 2015 at the Cognitive Rhythms and Computation Lab, University of New Mexico. Participants performed a Matlab-based Simon conflict task with reinforcement manipulation while EEG was recorded. Parkinson's patients completed two sessions a week apart, ON and OFF medication, and controls completed one. A triaxial accelerometer (X, Y, Z) was taped to the most tremor-affected hand.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -18,44 +18,31 @@
       "term": "EEG"
     },
     {
-      "term": "Parkinson's disease"
+      "term": "Parkinson Disease",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
     },
     {
-      "term": "conflict processing"
+      "term": "Simon conflict task"
     },
     {
-      "term": "Simon task"
+      "term": "cognitive control"
     },
     {
-      "term": "event-related potentials"
+      "term": "reinforcement learning"
     },
     {
-      "term": "motor control"
+      "term": "dopamine medication"
     },
     {
-      "term": "decision-making"
-    },
-    {
-      "term": "medication"
-    },
-    {
-      "term": "accelerometer"
-    },
-    {
-      "term": "cost of conflict"
-    },
-    {
-      "term": "reinforcement"
+      "term": "Accelerometry",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D061725"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003509",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003509",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
     },
@@ -78,6 +65,11 @@
       "identifier": "10.18112/openneuro.ds003509.v1.1.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003509",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "resource_type_specific": "EEG Dataset",
@@ -85,7 +77,7 @@
     "eeg"
   ],
   "sizes": [
-    "24.0 GB (1170 files)"
+    "22.31 GB (1170 files)"
   ],
   "formats": [
     ".bmp",
